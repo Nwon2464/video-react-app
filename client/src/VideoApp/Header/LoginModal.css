@@ -1,0 +1,35 @@
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+}
+.modal-backdrop {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modal-box {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 60%;
+  width: 400px;
+  background-color: white;
+  box-shadow: 0 0 0 1.5px rgba(0, 0, 0, 0.25);
+ 
+  padding: 40px;
+}
+.window__icon {
+  position: relative;
+  left: 360px;
+  cursor: pointer;
+  bottom: 41.5px;
+}
